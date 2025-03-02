@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags em HTML</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="simbolos .html">Simbolos</a>
+        <a href="#">Imagens</a>
+     </nav>
+     <main>
+        <h1>Essas sao as tags que aprendi até o momento</h1><br>
+        <h2>Cabeçalhos</h2>
+        <p>As tags h1 até h6 são usadas para títulos e subtítulos em HTML. Elas indicam a hierarquia dos títulos, sendo:</p>
+
+        <ul>
+            <li>h1 → Título principal (mais importante, maior)</li>
+            <li>h2 → Subtítulo de nível 2</li>
+            <li>h3 → Subtítulo de nível 3</li>
+            <li>h4 → Subtítulo de nível 4</li>
+            <li>h5 → Subtítulo de nível 5</li>
+            <li>h6 → Subtítulo de nível 6 (menos importante, menor)</li>
+        </ul><br>
+        <h2>Parágrafos</h2>
+        <p>P → define um parágrafo de texto em HTML. Ela é usada para organizar o conteúdo em blocos, adicionando automaticamente quebras de linha e espaçamento entre os parágrafos.</p><br>
+        <h2>Quebra de linha</h2>
+        <p>br → é usada para quebrar linha dentro do texto, sem iniciar um novo parágrafo. Ela não precisa de tag de fechamento.</p><br>
+        <h2>Linha horizontal</h2>
+        <p>hr → cria uma linha horizontal usada para separar conteúdos. Ela também adiciona uma quebra visual e não precisa de fechamento.</p><br>
+        <h2>Inserir emoji</h2>
+        <p>
+            <ul>
+                <li>O código Unicode &# 128512; (tem que tirar o espaço)que gera o emoji 😀.</li>
+                <li>A entidade HTML &#x 1F600; (tem que tirar o espaço)que também gera o emoji 😀.</li>
+                <li>😀 O emoji diretamente inserido no código HTML.</li>
+            </ul>
+        </p><br>
+        <h2>Inserir codigos em formato de código</h2>
+        <p>Para exibir código em formato de código dentro de uma página HTML, você pode usar a tag &lt;pre&gt; para preservar espaços e quebras de linha, junto com a tag &lt;code&gt; para indicar que o conteúdo é código</p>
+        <pre><code>
+            &lt;pre&gt;
+            &lt;code&gt;
+            &lt;html&gt;
+            &lt;head&gt;
+            &lt;title&gt;Exemplo de Página&lt;/title&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+               &lt;h1&gt;Olá, Mundo!&lt;/h1&gt;
+               &lt;p&gt;Este é um exemplo simples de código HTML.&lt;/p&gt;
+            &lt;/body&gt;
+            &lt;/html&gt;     
+            &lt;/code&gt;
+            &lt;/pre&gt;
+            </code></pre>
+          
+        <p>Isso mostrará o código HTML dentro da página de forma formatada e legível, com espaçamento e indentação preservados. Além disso, os caracteres especiais como < e > precisam ser escapados usando as entidades HTML (<, >).</p><br>
+        <h2>Lorem</h2>
+        <p>O termo "Lorem" é usado como parte de um texto genérico chamado Lorem Ipsum, que é frequentemente utilizado em design e desenvolvimento web para preencher espaços temporários. Esse texto serve para simular conteúdo real enquanto se trabalha no layout de uma página.</p><br>
+        <h2>Address</h2>
+
+        <p>A tag &lt;address&gt; é usada para exibir informações de contato, como endereço ou e-mail. O conteúdo é geralmente mostrado em itálico</p>
+        <pre><code>
+          &lt;address&gt;
+              João da Silva&lt;br&gt;
+              Rua das Flores, 123&lt;br&gt;
+              Cidade Exemplo - BR&lt;br&gt;
+              E-mail: joao@email.com
+          &lt;/address&gt;
+          </code></pre><br>
+          <h2>strong</h2>
+
+            <p>A tag <strong>&lt;strong&gt;</strong> é usada para destacar um texto com ênfase, geralmente exibido em negrito pelo navegador. Ela indica que o conteúdo dentro dela tem uma importância maior ou deve ser enfatizado.</p>
+            <pre><code>
+               &lt;strong&gt;Este texto está em negrito&lt;/strong&gt;
+               </code></pre><br>
+               <h2>em</h2>
+
+            <p>A tag &lt;em&gt; é usada para destacar um texto com ênfase, geralmente exibido em itálico. Ela indica que o conteúdo dentro dela deve ser enfatizado, mas sem a intensidade de um &lt;strong&gt;.</p>
+            <pre><code>
+               &lt;em&gt;Este texto está em itálico&lt;/em&gt;
+               </code></pre><br>
+
+               <h2>mark</h2>
+
+            <p>A tag &lt;mark&gt; é usada para destacar texto, geralmente com uma cor de fundo amarelo, para indicar que ele é relevante ou importante, como se fosse uma marcação. </p>
+            <pre><code>
+               &lt;mark&gt;Texto destacado&lt;/mark&gt;
+               </code></pre>
+
+            <h2>small</h2>
+
+            <p>A tag <small>&lt;small&gt;</small> é usada para diminuir o tamanho da fonte do texto dentro dela, indicando que a informação é de menor importância ou uma nota.</p> 
+            <pre><code>
+               &lt;small&gt;Texto em tamanho menor&lt;/small&gt;
+               </code></pre>
+
+            <h2>del</h2>
+
+            <p>A tag <del>&lt;del&gt;</del> é usada para indicar que um texto foi deletado ou removido. Normalmente, o texto aparece riscado, para mostrar que foi alterado ou removido de algum conteúdo.</p> 
+            <pre><code>
+               &lt;del&gt;Este texto foi removido&lt;/del&gt;
+               </code></pre>
+
+            <h2>ins</h2> 
+
+            <p>A tag  <ins>&lt;ins&gt;</ins> é usada para indicar que um texto foi inserido ou adicionado. Normalmente, o texto aparece com uma linha embaixo para destacar que foi adicionado ou alterado.</p> 
+            <pre><code>
+               &lt;ins&gt;Este texto foi inserido&lt;/ins&gt;
+               </code></pre>
+
+            <h2>sup</h2>
+
+            <p>A tag &lt;sup&gt; é usada para exibir texto como sobrescrito, que fica acima da linha base, como em potências (exemplo: 2²) </p>
+            <pre><code>
+               2&lt;sup&gt;2&lt;/sup&gt; = 4
+               </code></pre>
+
+            <h2>sub</h2>
+
+            <p>A tag &lt;sub&gt; é usada para exibir texto como subscrito, que fica abaixo da linha base, como em fórmulas químicas (exemplo: H₂O).</p>
+            <pre><code>
+               H&lt;sub&gt;2&lt;/sub&gt;O
+               </code></pre>
+
+            <h2>Citações</h2>
+
+            <p>
+                &lt;q&gt; é usada para citações curtas dentro de uma frase. O navegador geralmente coloca aspas ao redor do conteúdo.
+                   &lt;blockquote&gt; é usada para citações longas ou parágrafos inteiros, e o texto é geralmente destacado com uma margem.
+            </p>
+              
+            <pre><code>
+               &lt;q&gt;A vida é bela&lt;/q&gt;
+               </code></pre>
+               <pre><code>
+                  &lt;blockquote&gt;
+                      "O único lugar onde o sucesso vem antes do trabalho é no dicionário."
+                      - Albert Einstein
+                  &lt;/blockquote&gt;
+                  </code></pre>
+
+            <h2>Abreviações</h2>
+
+            <p>Para abreviações em HTML, usamos a tag <abbr title="Abreviações">&lt;abbr&gt;</abbr>, que é usada para representar uma abreviação ou sigla, podendo fornecer uma descrição ou explicação com o atributo title.</p>
+            <pre><code>
+               &lt;abbr title="HyperText Markup Language"&gt;HTML&lt;/abbr&gt;
+               </code></pre>
+
+            <h2>Texto invertido</h2>
+
+            <p>A tag &lt;bdo&gt; (Bi-directional override) em HTML é usada para forçar a direção do texto, seja da esquerda para a direita (LTR) ou da direita para a esquerda (RTL), independentemente da configuração de idioma do conteúdo.</p>
+            <pre><code>
+            &lt;bdo dir="rtl"&gt;Texto da direita para a esquerda&lt;/bdo&gt;
+             </code></pre>
+            <pre><code>
+             &lt;bdo dir="ltr"&gt;Texto da esquerda para a direita&lt;/bdo&gt;
+            </code></pre>
+
+
+     </main>
+    
+</body>
+</html>

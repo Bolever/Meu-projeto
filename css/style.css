@@ -1,0 +1,104 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+LA:wght@100..400&display=swap');
+
+
+:root{
+
+    --cor01: #767DCF;
+    --cor02: #797DA5;
+    --cor03: #6571FA;
+    --cor04: #6e6f7a44;
+    --cor05: #6E6F7A;
+    --cor06: #0814a0;
+    --cor07:#b2b3c9;
+
+    --fonte-01: "Delius", 'cursive';
+    --fonte-02: "Playwrite DE LA", 'cursive';
+}
+
+*{
+    margin: 0px;
+    border: 0px;
+}
+
+
+body{
+    background-color:var(--cor04);
+    padding: 0px;
+}
+
+nav{
+    position: fixed;
+    top: 0%;
+    width: 97.8%;
+    background: var(--cor07);
+    color: white;
+    padding: 20px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    box-shadow:  0px 5px 20px rgba(0, 0, 0, 0.418);
+}
+
+nav a{
+    color: var(--cor06);
+    font-weight:bolder;
+    font-size: 35px;
+    text-decoration: none;
+    padding: 20px;
+    font-family:var(--fonte-01);
+    transition-duration: 0.1s;
+    text-shadow: 3px 5px 6px rgba(0, 0, 0, 0.548);
+
+}
+
+nav a:hover{
+    color: white;
+    background-color:var(--cor05);
+    border-radius: 20px;
+}
+
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    border: 0px;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 15px;
+    box-shadow:  0px 5px 20px rgba(0, 0, 0, 0.418);
+    padding-top: 80px;
+}
+
+main h1{
+    background-image:linear-gradient(to right,var(--cor04),white,white);
+    font-family: var(--fonte-01);
+    color: var(--cor06);
+    background-color: var(--cor04);
+    border-radius: 15px 15px 0px 0px;
+    text-indent: 25px;
+}
+
+main h2{
+    font-family: var(--fonte-02);
+    color: var(--cor06);
+    font-weight: bold;
+    font-size: 23px;
+    text-indent: 25px;
+}
+
+main p{
+    font-size: 20px;
+    line-height: 1.4em;
+    text-indent: 15px;
+    text-align: justify;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+   
+}
+picture img{
+    display: block;
+    width: 80%;
+    margin: auto;
+}
