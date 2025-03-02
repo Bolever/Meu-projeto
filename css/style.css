@@ -2,6 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+LA:wght@100..400&display=swap');
 
+@font-face {
+    font-family: 'fonte-menu';
+    src: url(../fonts/Coffee\ Menus_personal\ use.ttf);
+}
+
 
 :root{
 
@@ -11,10 +16,11 @@
     --cor04: #6e6f7a44;
     --cor05: #6E6F7A;
     --cor06: #0814a0;
-    --cor07:#b2b3c9;
+    --cor07: #b2b3c9;
 
     --fonte-01: "Delius", 'cursive';
     --fonte-02: "Playwrite DE LA", 'cursive';
+    --fonte-03: 'fonte-menu','cursive';
 }
 
 *{
@@ -34,7 +40,7 @@ nav{
     width: 97.8%;
     background: var(--cor07);
     color: white;
-    padding: 20px;
+    padding: 10px;
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
     box-shadow:  0px 5px 20px rgba(0, 0, 0, 0.418);
@@ -45,8 +51,8 @@ nav a{
     font-weight:bolder;
     font-size: 35px;
     text-decoration: none;
-    padding: 20px;
-    font-family:var(--fonte-01);
+    padding: 10px;
+    font-family:var(--fonte-03);
     transition-duration: 0.1s;
     text-shadow: 3px 5px 6px rgba(0, 0, 0, 0.548);
 
@@ -55,7 +61,7 @@ nav a{
 nav a:hover{
     color: white;
     background-color:var(--cor05);
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 main{
@@ -71,7 +77,7 @@ main{
 }
 
 main h1{
-    background-image:linear-gradient(to right,var(--cor04),white,white);
+
     font-family: var(--fonte-01);
     color: var(--cor06);
     background-color: var(--cor04);
@@ -80,7 +86,7 @@ main h1{
 }
 
 main h2{
-    font-family: var(--fonte-02);
+    font-family: var(--fonte-01);
     color: var(--cor06);
     font-weight: bold;
     font-size: 23px;
