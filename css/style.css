@@ -29,9 +29,22 @@
 }
 
 
+html,body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 body{
-    background-color:var(--cor04);
-    padding: 0px;
+    background-color: var(--cor04);  /* A cor de fundo que você quer */
+    min-height: 100%;  /* Garantir que o fundo ocupe toda a altura da tela */
+}
+
+.essa{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+
 }
 
 nav{
@@ -67,13 +80,15 @@ nav a:hover{
 main{
     min-width: 300px;
     max-width: 1000px;
-    margin: auto;
+    margin: 0 auto;
+    width: 100%;
     border: 0px;
     background-color: white;
     margin-top: 10px;
     border-radius: 15px;
     box-shadow:  0px 5px 20px rgba(0, 0, 0, 0.418);
-    padding-top: 80px;
+    margin-top: 85px;
+    flex: 1;
 }
 
 main h1{
@@ -103,8 +118,21 @@ main p{
     font-weight: normal;
    
 }
+
+main pre{
+    margin-left: 0px;
+}
+
 picture img{
     display: block;
     width: 80%;
     margin: auto;
+}
+
+footer{
+    margin-top: 5px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 8px;
 }
