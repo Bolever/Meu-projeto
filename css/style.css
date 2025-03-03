@@ -50,7 +50,7 @@ body{
 nav{
     position: fixed;
     top: 0%;
-    width: 97.8%;
+    width: 99%;
     background: var(--cor07);
     color: white;
     padding: 10px;
