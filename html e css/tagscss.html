@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags em CSS</title>
+    <link rel="shortcut icon" href="../imagem/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        ul{
+            list-style-type: none;
+        }
+        
+        ul li::before{
+            content: '➜';
+            color: #0814a0;
+            padding-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="essa">
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="tag.html">Tags</a>
+            <a href="simbolos .html">Simbolos</a>
+            <a href="Imagens.html">imagens</a>
+         </nav>
+         <main>
+            <h1>Tags que estou estudando até agora</h1><br>
+            <h2>border</h2>
+            <ul class="listacss">
+                <li>border-width → Define a espessura da borda (ex: 1px, 5px).</li>
+                <li>border-style → Define o estilo da borda (solid, dashed, dotted etc.).</li>
+                <li>border-color → Define a cor da borda (red, blue, #333 etc.).</li>
+                <li>border-radius → Arredonda os cantos do elemento (10px, 50%).</li>
+                <li>border-top → Controla a borda superior separadamente.</li>
+                <li>border-right → Controla a borda direita separadamente.</li>
+                <li>border-bottom → Controla a borda inferior separadamente.</li>
+                <li>border-left → Controla a borda esquerda separadamente.</li>
+            </ul><br>
+            <h2>height</h2>
+            <ul class="listacss">
+                <li>height → Define a altura de um elemento (100px, 50%, auto).</li>
+                <li>min-height → Define a altura mínima que um elemento pode ter.</li>
+                <li>max-height → Define a altura máxima que um elemento pode ter.</li>
+            </ul><br>
+            <h2>width</h2>
+            <ul>
+                <li>width → Define a largura de um elemento (100px, 50%, auto).</li>
+                <li>min-width → Define a largura mínima que um elemento pode ter.</li>
+                <li>max-width → Define a largura máxima que um elemento pode ter.</li>
+            </ul><br>
+            <h2>padding</h2>
+            <ul>
+                <li>padding → Define o espaçamento interno entre o conteúdo e a borda de um elemento (ex: 10px, 1em).</li>
+                <li>padding-top → Define o espaçamento superior.</li>
+                <li>padding-right → Define o espaçamento à direita.</li>
+                <li>padding-bottom → Define o espaçamento inferior.</li>
+                <li>padding-left → Define o espaçamento à esquerda.</li>
+            </ul><br>
+            <h2>font</h2>
+            <ul>
+                <li>font-family → Define a família da fonte (ex: Arial, Verdana).</li>
+                <li>font-size → Define o tamanho da fonte (ex: 16px, 1em, larger).</li>
+                <li>font-weight → Define o peso da fonte (ex: normal, bold, lighter).</li>
+                <li>font-style → Define o estilo da fonte (ex: normal, italic, oblique).</li>
+                <li>font-variant → Define a variante da fonte (ex: normal, small-caps).</li>
+                <li>font-stretch → Controla a espessura e largura da fonte (ex: normal, condensed).</li>
+            </ul><br>
+            <h2>color</h2>
+            <ul>
+                <li>color → Define a cor do texto (ex: red, #333, rgb(0, 0, 255)).</li>
+                <li>color-opacity → Controla a opacidade da cor do texto (ex: rgba(255, 0, 0, 0.5)).</li>
+            </ul><br>
+            <h2>background</h2>
+            <ul>
+                <li>background-color → Define a cor de fundo do elemento (ex: red, #f0f0f0).</li>
+                <li>background-image → Define uma imagem de fundo (ex: url('imagem.jpg')).</li>
+                <li>background-position → Define a posição da imagem de fundo (ex: top left, center center).</li>
+                <li>background-size → Define o tamanho da imagem de fundo (ex: cover, contain, 100px 200px).</li>
+                <li>background-repeat → Define se a imagem de fundo vai se repetir (ex: no-repeat, repeat, repeat-x).</li>
+                <li>background-attachment → Define se a imagem de fundo deve rolar com o conteúdo ou ficar fixa (ex: scroll, fixed).</li>
+                <li>background-clip → Controla onde o fundo é desenhado (ex: border-box, padding-box).</li>
+                <li>background-origin → Define a origem do fundo (ex: padding-box, content-box).</li>
+            </ul><br>
+            <h2>margin</h2>
+            <ul>
+                <li>margin → Define o espaçamento externo entre o elemento e seus vizinhos (ex: 10px, 2em).</li>
+                <li>margin-top → Define o espaçamento superior.</li>
+                <li>margin-right → Define o espaçamento à direita.</li>
+                <li>margin-bottom → Define o espaçamento inferior.</li>
+                <li>margin-left → Define o espaçamento à esquerda.</li>
+            </ul><br>
+            <h2>box-shadow</h2>
+            <ul>
+                <li>box-shadow → Adiciona uma sombra ao redor de um elemento (ex: 2px 2px 5px rgba(0, 0, 0, 0.3)).</li>
+            </ul><br>
+            <h3>Parâmetros:</h3>
+
+            <ul>
+                <li>horizontal offset → Deslocamento horizontal da sombra (ex: 2px).</li>
+                <li>vertical offset → Deslocamento vertical da sombra (ex: 2px).</li>
+                <li>blur radius → Definição de desfoque da sombra (ex: 5px).</li>
+                <li>spread radius → Definição do tamanho da sombra (ex: 0px).</li>
+                <li>color → Cor da sombra (ex: rgba(0, 0, 0, 0.3)).</li>
+            </ul><br>
+            <h2>text-shadow</h2>
+            <ul>
+                <li>text-shadow → Adiciona uma sombra ao texto.</li>
+            </ul><br>
+
+            <h3>Parâmetros:</h3>
+
+            <ul>
+                <li>horizontal offset → Deslocamento horizontal da sombra (ex: 2px).</li>
+                <li>vertical offset → Deslocamento vertical da sombra (ex: 2px).</li>
+                <li>blur radius → Definição de desfoque da sombra (ex: 4px).</li>
+                <li>color → Cor da sombra (ex: rgba(0, 0, 0, 0.5)).</li>
+            </ul><br>
+            <h2>text</h2>
+            <ul>
+                <li>text-align → Define o alinhamento do texto (ex: left, center, right, justify).</li>
+                <li>text-decoration → Adiciona ou remove uma decoração no texto (ex: underline, line-through, overline, none).</li>
+                <li>text-transform → Controla a transformação do texto (ex: uppercase, lowercase, capitalize).</li>
+                <li>text-indent → Define o recuo do texto (ex: 20px, 2em).</li>
+                <li>text-shadow → Adiciona uma sombra ao texto (ex: 2px 2px 4px rgba(0, 0, 0, 0.5)).</li>
+                <li>letter-spacing → Controla o espaçamento entre as letras (ex: 1px, 0.1em).</li>
+                <li>line-height → Define a altura da linha do texto (ex: 1.5, 20px).</li>
+                <li>white-space → Controla o comportamento do texto quanto a quebras de linha e espaços (ex: normal, nowrap, pre).</li>
+            </ul><br>
+            <h2>Importar fontes</h2>
+            <ul>
+                <li>Para importar uma fonte externa, você pode usar a regra @import no CSS ou a tag &lt;link&gt; no HTML.</li>
+                <li>O @font-face permite que você defina fontes personalizadas e as use diretamente no seu projeto, carregando o arquivo da fonte do seu servidor ou do diretório local.</li>
+            </ul>
+
+         </main>
+    </div>
+</body>
+</html>
